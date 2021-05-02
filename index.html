@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Youtube Clone</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="lucas">
+    <meta name="description" content="Youtube Clone Simples">
+    <meta name=keywords content="projeto,pratico,iniciante,html,css,js">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favicon_io/apple-touch-icon.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+        <header class="main-header">
+
+            <div class="menu-logo-content">
+                <div class="menu-hamburguer openBtn">
+                    <i class="fas fa-bars"></i>
+                </div><!--## MENU HAMBURGUER ##-->
+
+                <div class="logo">
+                    <i class="fab fa-youtube"></i>
+                    <h1>Youtube</h1>
+                </div><!--## LOGO ##-->
+            </div><!--## MENU LOGO CONTENT ##-->
+
+            <div class="search">
+                <form class="search-inbox">
+                    <input type="search" placeholder="Pesquisar">
+                    <button class="fas fa-search" title="pesquisar"></button>
+                </form><!--## SEARCH INBOX ##-->
+                <i class="fas fa-microphone" title="Busca por voz"></i>
+            </div><!--## SEARCH ##-->
+
+            <div class="search-mobile">
+                <form>
+                    <i class="fas fa-arrow-left"></i>
+                    <input type="search" placeholder="Pesquisar">
+                    <button class="fas fa-search"></button>
+                </form>
+            </div><!-- SEARCH MOBILE ##-->
+
+            <div class="user-menu">
+                <i class="fas fa-upload" title="Upload"></i>
+                <i class="fas fa-th js-apps" title="Aplicativos Youtube"></i>
+                <i class="fas fa-bell js-notification" title="Notificações"></i>
+                <button class="fas fa-search js-search-open" title="pesquisar"></button>
+                <div class="user-perfil" title="Perfil">
+                    <img src="img/unnamed.jpg" alt="foto perfil">
+                </div><!--## USER PERFIL ##-->
+            </div><!--## USER MENU ##-->
+
+            <div class="menu-box apps-box">
+                <div class="app-wrapper">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-youtube"></i>Youtube TV</a></li>
+                    </ul>
+                </div><!--## APP WRAPPER ##-->
+
+                <div class="app-wrapper">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-youtube"></i>Youtube Music</a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i>Youtube Kids</a></li>
+                    </ul>
+                    
+                </div><!--## APP WRAPPER ##-->
+
+                <div class="app-wrapper">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-youtube"></i>Youtube Arte</a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i>Youtube Facul</a></li>
+                    </ul>
+                </div><!--## APP WRAPPER ##-->
+            </div><!--## APPS BOX ##-->
+
+            <div class="menu-box notification-box">
+                <div class="notification-title">
+                    <h3>Notificações</h3>
+                    <i class="fas fa-cog"></i>
+                </div><!--## NOTIFICATION TITLE ##-->
+            </div><!--## NOTIFICATION BOX ##-->
+
+            <div class="menu-box user-perfil-box">
+                <header class="user-info">
+                    <div class="user-img-wrapper">
+                        <img src="img/unnamed.jpg" alt="user perfil" width="40">
+                    </div><!--## USER IMG WRAPPER ##-->
+
+                    <div class="user-info-wrapper">
+                        <h4>UserName</h4>
+                        <p>Email@email.com</p>
+                        <a href="#">Gerenciar sua Conta do Wooble</a>
+                    </div><!--## USER INFO WRAPPER ##-->
+                </header><!--## USER INFO ##-->
+
+                <div class="user-menu-options">
+                    <div class="options-single js-theme-menu">
+                        <i class="fas fa-adjust"></i>
+                        <p>Tema</p>
+                        <i class="fas fa-chevron-right"></i>
+                    </div><!--## OPTION SINGLE ##-->
+                </div><!--## USER MENU OPTIONS ##-->
+
+                <div class="theme-menu">
+                    <header class="theme-header">
+                        <i class="fas fa-arrow-left js-close-theme"></i>
+                        <h4>Aparência</h4>
+                    </header>
+
+                    <div class="theme-options">
+                        <div class="theme-options-single" id="light">
+                            <i class="fas fa-check active js-check-icon"></i>
+                            <p>Tema Claro</p>
+                        </div><!--## THEME OPTIONS SINGLE ##-->
+
+                        <div class="theme-options-single" id="dark">
+                            <i class="fas fa-check js-check-icon"></i>
+                            <p>Tema Escuro</p>
+                        </div><!--## THEME OPTIONS SINGLE ##-->
+                    </div><!--## THEME OPTIONS ##-->
+                </div><!--## THEME MENU ##-->
+            </div><!--## USER MENU BOX ##-->
+
+            <div class="black-bg"></div><!-- BLACK BG FOR MENUS ##-->
+        </header><!--## MAIN HEADER ##-->
+
+        <aside class="left-menu">
+            
+
+            <nav class="main-aside-nav">
+                <ul>
+
+                    <li><a href="#">
+                        <i class="fas fa-home"></i>
+                        <p>Inicio</p>
+                    </a></li>
+
+                    <li><a href="#">
+                        <i class="fas fa-compass"></i>
+                        <p>Explorar</p>
+                    </a></li>
+
+                    <li><a href="#">
+                        <i class="fab fa-buffer"></i>
+                        <p>Inscrições</p>
+                    </a></li>
+
+                    <li><a href="#">
+                        <i class="fas fa-folder"></i>
+                        <p>Biblioteca</p>
+                    </a></li>
+
+                </ul>
+            </nav>
+        </aside><!--## LEFT MENU ##-->
+
+        <aside class="secondary-aside">
+            <nav class="secondary-aside-menu">
+                <header>
+                    <div class="menu-logo-content">
+                        <div class="menu-hamburguer closeBtn">
+                            <i class="fas fa-bars"></i>
+                        </div><!--## MENU HAMBURGUER ##-->
+        
+                        <div class="logo">
+                            <i class="fab fa-youtube"></i>
+                            <h1>Youtube</h1>
+                        </div><!--## LOGO ##-->
+                    </div><!--## MENU LOGO CONTENT ##-->
+                </header>
+            </nav>
+
+            <div class="black-bg"></div><!-- BLACK BG FOR MENUS ##-->
+        </aside><!--## SECONDARY ASIDE MENU ##-->
+
+        <main>
+            <section class="grid-videos">
+                <div class="video-box-wrapper">
+                    <div class="box-video">
+                        <div class="video-duration">
+                            <span class="min">20</span>:<span class="sec">35</span>
+                        </div><!--## VIDEO DURATION ##-->
+                    </div><!--## BOX VIDEO ##-->
+
+                    <div class="video-perfil">
+
+                    </div><!--## VIDEO PERFIL ##-->
+
+                    <div class="description-box">
+                        <h4 class="video-title">Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                        <p class="video-channel">Lorem ipsum</p>
+                        <p class="video-views">40 mil visualizações °</p>
+                        <p class="video-postage">há 2 horas</p>
+                    </div><!--## DESCRIPTION BOX ##-->
+                </div><!--## VIDEO BOX WRAPPER ##-->
+            </section><!--## GRID VIDEOS ##-->
+        </main>
+
+        
+    <script src="js/main.js"></script>
+</body>
+</html>
