@@ -22,6 +22,7 @@
     --desc-title-color: #717171;
     --menu-padding-left: 10%;
     --box-border: #0000003d;
+    --search-border: #30303046;
     --scroll-thumb-bg: #606060;
     --menus-hover-bg: #d1d1d19d;
 }
@@ -63,6 +64,7 @@ body.dark{
     --desc-title-color: #717171;
     --menu-padding-left: 10%;
     --box-border: #7171712d;
+    --search-border: #303030d2;
     --scroll-thumb-bg: #606060;
     --menus-hover-bg: #d1d1d117;
 }
@@ -162,7 +164,7 @@ header.main-header .search{
     width: 100%;
     max-width: 480px;
     display: flex;
-    border: 1px solid #3030303a;
+    border: 1px solid var(--search-border);
 }
 
 .search-inbox input[type=search]{
@@ -185,7 +187,7 @@ header.main-header .search{
 
 button.fa-search{
     border: none;
-    border-left: 1px solid #3030303a;
+    border-left: 1px solid var(--search-border);
     padding: 0 25px;
     font-size: 1rem;
     background: var(--search-bg-btn);
