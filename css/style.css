@@ -711,6 +711,10 @@ h4.video-title{
         margin-left: 10px;
     }
 
+    .user-perfil-box{
+        right: 10px;
+    }
+
     aside.left-menu{
         width: 100%;
         height: auto;
@@ -745,3 +749,4 @@ h4.video-title{
         padding: 72px 2%;
     }
 }
+

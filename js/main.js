@@ -130,8 +130,8 @@ const themeChange = {
             iconThemeOptions[1].classList.remove('active')
         }
 
-        // userBox.classList.remove('open-user-perfil-box')
-        // themeMenu.classList.remove('open-theme-menu')
+        userBox.classList.remove('open-user-perfil-box')
+        themeMenu.classList.remove('open-theme-menu')
     }
 }
 
