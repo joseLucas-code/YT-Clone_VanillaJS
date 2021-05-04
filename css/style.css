@@ -690,19 +690,22 @@ h4.video-title{
 
     .user-menu button.fa-search{
         padding: 5px 15px;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         background: none;
         border: none;
-        color: #999999;
+        color: var(--black-color);
         cursor: pointer;
         outline: none;
         display: block;
     }
     
     .user-menu i.fa-upload,
-    .user-menu i.fa-th,
-    .user-menu i.fa-bell{
+    .user-menu i.fa-th{
         display: none;
+    }
+
+    .user-menu i.fa-bell{
+
     }
     
     
