@@ -98,7 +98,7 @@ header.main-header{
     position: fixed;
     top: 0;
     right: 0;
-    transition: .3s;
+    transition: top .3s;
     z-index: 3;
     border-bottom: 1px solid var(--box-border)
 }
@@ -693,7 +693,7 @@ h4.video-title{
         font-size: 1.2rem;
         background: none;
         border: none;
-        color: var(--black-color);
+        color: var(--icon-primary-color);
         cursor: pointer;
         outline: none;
         display: block;
@@ -702,10 +702,6 @@ h4.video-title{
     .user-menu i.fa-upload,
     .user-menu i.fa-th{
         display: none;
-    }
-
-    .user-menu i.fa-bell{
-
     }
     
     
