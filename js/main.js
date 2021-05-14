@@ -19,6 +19,14 @@ closeBtn.addEventListener('click', function(){
 
 })
 
+// Close sidebar menu and search mobile on click in black background
+blackBG.addEventListener('click', ()=>{
+    menuSideBar.classList.remove('open-menu')
+    blackBG.classList.remove('visible-bg')
+    document.body.classList.remove('overflow-hidden')
+    searchMobile.classList.remove('open-search-mobile')
+})
+
 // search mobile open/close
 
 const searchMobile = document.querySelector('.search-mobile')
