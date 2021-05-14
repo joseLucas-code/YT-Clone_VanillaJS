@@ -154,21 +154,20 @@ header.main-header.hidden-header{
 
 header.main-header .search{
     width: 100%;
-    max-width: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
+    margin: 0 5%;
 }
 
 .search-inbox{
     width: 100%;
-    max-width: 480px;
     display: flex;
     border: 1px solid var(--search-border);
 }
 
 .search-inbox input[type=search]{
-    flex: 1 0 50px;
     padding: 0 1%;
     width: 100%;
     background: var(--search-bg);
@@ -178,6 +177,7 @@ header.main-header .search{
     color: var(--black-color);
     font-size: 1.1rem;
     border: none;
+    padding-left: 2%;
 }
 
 .search-inbox input[type=search]::placeholder{
@@ -605,24 +605,6 @@ h4.video-title{
     .menu-logo-content .menu-hamburguer{
           font-size: 1.3rem;
     }
-    
-    header.main-header .search{
-        max-width: 350px;
-    }
-    
-    .search-inbox input[type=search]::placeholder{
-        font-size: 1.1rem;
-        
-    }
-    
-    .search-inbox button.fa-search{
-        padding: 0 15px;
-        font-size: 1.1rem;
-    }
-    
-    .search i.fa-microphone{
-        font-size: 1.1rem;
-    }
 
     .box-video{
         height: 200px;
@@ -679,6 +661,7 @@ h4.video-title{
         border-bottom: 2px solid var(--box-border);
         margin: 0 15px;
         outline: none;
+        padding-left: 2%;
     }
 
     header.main-header .search-mobile button{
@@ -748,6 +731,12 @@ h4.video-title{
 
     section.grid-videos{
         padding: 72px 2%;
+    }
+}
+
+@media (max-width: 405px){
+    .notification-box{
+        right: 10px;
     }
 }
 
